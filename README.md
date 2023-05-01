@@ -2,7 +2,8 @@
 sharedPreferences用于存储和检索键值对数据，taskList是一个可变列表，保存用户的任务，myAdapter是将数据绑定到RecyclerView的适配器。
 addButton将任务添加到taskList中，然后调用saveTaskList()方法将更新的列表保存到SharedPreferences。最后，通知适配器数据发生了变化。
 在MyViewHolder类中获取删除按钮，设置点击事件监听器，以便在点击按钮时从任务列表中删除指定的任务并通知适配器进行更新。
-    APP功能的展示(GIF)
+    APP功能的展示(GIF):![图片](https://user-images.githubusercontent.com/117084491/235449035-c8bb1a7f-3ace-469c-a9b2-8e8b195d404e.png)
+(中途黑屏了不是软件原因，是因为手机有隐私保护啥玩意，输密码的时候就黑屏。。。）
     技术亮点或者说你认为写得不错的地方:对我自己来说就是储存，之前根本不会，现在有点小会，对使用来说就是壁纸吧。。心情愉悦
     心得体会：有点什么不如意的，一定不要草率去改。。一不小心就崩了，改了两三个小时改崩了又去找之前的版本，因为commit之后不能返回到没有commit之前的，
     所以又去网上搜了教程，忙碌三四小时，结果还是最开始的那个。。
